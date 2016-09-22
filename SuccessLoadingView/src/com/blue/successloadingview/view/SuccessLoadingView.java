@@ -157,6 +157,9 @@ public class SuccessLoadingView extends View {
 
 				if (mLineRunning) {
 					Path path = new Path();
+					//修复在api < 20时动画不显示
+					path.lineTo(0, 0);
+					
 					float length = mPathMeasure.getLength();
 					mPathMeasure.getSegment(0, length * animatedValue, path, true);
 					canvas.drawPath(path, mLinePaint);
