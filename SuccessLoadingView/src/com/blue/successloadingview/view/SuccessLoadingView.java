@@ -123,6 +123,18 @@ public class SuccessLoadingView extends View {
 				measureHeightSize(heightMeasureSpec));
 	}
 
+	public void setStrokeColor(int strokeColor) {
+		this.mStrokeColor = strokeColor;
+	}
+
+	public void setAnimDuration(int animDuration) {
+		this.mAnimDuration = animDuration;
+	}
+
+	public void setStrokeWidth(int strokeWidth) {
+		this.mStrokeWidth = strokeWidth;
+	}
+
 	@Override
 	protected void onDraw(Canvas canvas) {
 		mPaint.setColor(mStrokeColor);
