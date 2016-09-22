@@ -8,7 +8,7 @@
 
 > 2.自定义线条宽度
 
-> 3.自定义动画市场
+> 3.自定义动画时间
 
 [APK下载](https://github.com/chengli3209/SuccessLoadingView/blob/master/SuccessLoadingView.apk "悬停显示")
 
